@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-header{
-    width: 100vw;
+
+/* Header Section Start */
+header {
+    width: 100%;
     height: 50px;
     padding: 0px 100px;
     color: #fff;
@@ -13,7 +15,10 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.banner{
+
+/* /Header Section End */
+/* Banner Section Start */
+.banner {
     width: 100%;
     height: 600px;
     color: #fff;
@@ -24,28 +29,145 @@ header{
     background: url(../img/Industrial.jpeg);
     background-size: cover;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 55px;
     font-weight: normal;
 }
-.banner h1 span{
+
+.banner h1 span {
     font-size: 77px;
     display: block;
     font-weight: 600;
 }
-.banner aside{
+
+.banner aside {
     padding: 20px;
     background: #022D7c;
     border-radius: 7px;
     text-align: center;
 }
+
 .banner aside input[type],
 .banner aside textarea,
-.banner aside button{
+.banner aside button {
     width: 100%;
     height: 50px;
-    margin: 5px;
+    text-align: center;
 }
-.table{
-    height: 200pxpx;
+.form table tr td {
+    padding: 5px;
 }
+
+/* /Banner Section End */
+/* Feature Section Start */
+.feature {
+    width: 100;
+    height: auto;
+    display: flex;
+    text-align: center;
+    color: #022D7c;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+
+.feature div {
+    width: 30%;
+    height: 400px;
+}
+
+.feature div img {
+    width: 350px;
+    height: 250px;
+}
+
+.feature div h2 {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+.feature div p {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+/* /Feature Section End */
+
+/* About Us Section Start */
+.about {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #022D7c;
+    padding: 60px 300px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    font-weight: normal;
+    
+}
+
+.about p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.about button {
+    padding: 15px 100px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: #022D7c;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* /About Us Section End */
+/* Our Service Section Start */
+.service, .table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.service .lower {
+    padding-top: 45px;
+}
+.service .lower .img {
+    padding-top: 90px;
+    
+}
+.service {
+    padding-top: 40px;
+}
+table tr td img{
+    width: 598px;
+    height: 500px;
+}
+table tr td p{
+    padding: 20px 60px;
+    text-align: justify;
+}
+/* /Our Service Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px 100px;
+    background: #022D7c;
+
+}
+/* /Footer Section End */
+/* Table Section Start */
+/* Table Section End */
