@@ -166,8 +166,12 @@ footer{
     text-align: center;
     padding: 25px 100px;
     background: #022D7c;
-
 }
 /* /Footer Section End */
-/* Table Section Start */
-/* Table Section End */
+/* Media Screen Section Start */
+@media screen (max-width: 992px) { 
+    header{
+        
+    }
+ }
+/* /Media Screen Section End */
